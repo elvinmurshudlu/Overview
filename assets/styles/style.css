@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+
+body section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #F2EAC2;
+    padding: 20px;
+
+    
+}
+
+body section aside{
+    
+    padding-top: 35px;
+    padding-left: 60px;
+    width: 20%;
+    height: 100%;
+    
+    
+    
+}
+
+
+
+
+ 
+
+.logo{
+    width: 100%;
+    margin-bottom: 99px;
+}
+
+aside .menu ul {
+     margin-bottom: 95px;   
+}
+
+
+aside .menu ul li{
+    font-size: 19px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+aside .menu ul li:hover{
+    text-decoration: underline;
+    color: rgb(27, 10, 123);
+}
+
+
+aside .logout{
+
+    padding-top: 95px;
+}
+
+
+aside .logout a {
+    color: black;
+}
+aside .logout a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
+body section main{
+    width: 80%;
+    height: 100%;    
+    border: 0;        
+    display: flex;
+    
+
+   
+}
+
+
+
+body section main .main {
+    width: 66%;
+    height: 100%;
+    background-color: #FBFAF4;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 20px;
+}
+
+body section main .main .header {
+    width: 100%;
+    height: 15%;
+    
+}
+
+body section main .main .header h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+
+}
+body section main .main .header p{
+    font-size: 15px;
+    font-weight: lighter;
+    color: gray;
+
+}
+
+.statistic{
+    width: 100%;
+    height: 35%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 48.5%;
+    height: 100%;
+    background-color: #FFDB42;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.left:hover{
+    border: 1px solid red;
+    
+}
+
+.right{
+    border-radius: 15px;
+    width: 48%;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.right:hover{
+    border: 1px solid red;
+}
+
+.left h1{
+    
+    
+    margin-top: 120px;
+    
+    font-size: 20px;
+}
+.left p{
+    margin-top: 5px;
+    font-size: 15px;
+    
+}
+
+
+.right h1 {
+    font-size: 30px;
+    width: 20px;
+    font-style: italic;
+}
+
+.right p {
+    color: grey;
+    font-size: small;
+    font-weight: 200;
+}
+
+
+
+
+.feature{
+    margin-top: 28px;
+    display: flex;
+}
+.feature h1{
+    width: 86%;
+}
+
+.feature a {
+    background-color: none;
+    cursor: pointer;
+}
+.feature a:hover{
+    text-decoration:underline;
+    color: rgb(27, 10, 123);
+}
+
+
+.table {
+    margin-top: 15px;
+}
+
+.table table {
+    width: 98%;
+    
+    
+}
+.table table th {
+    text-align:left ;
+    color: grey;
+    font-weight: 100;
+    
+}
+
+.table table tr {
+    height: 40px;
+}
+.table table td{
+    font-weight: 550;
+}
+.star{
+    font-size: 15px;
+    color: rgba(170, 170, 9, 0.641);
+}
+
+.typemain{
+    padding-left: 25px;
+}
+
+.type span{
+    background-color: #F6EFD8;
+    padding: 6px;
+    border-radius: 20px;
+    font-size: small;
+    
+}
+
+/* image decorations */
+
+.img{
+    width: 15px;
+    margin-right: 8px;
+    
+}
+
+
+.logopic{
+    width: 35px;
+
+}
+
+
+
+body section main .prof{
+    width: 34%;
+    height: 100%;
+    background-color: #F6F2DD;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 20px;
+    
+}
+
+.prof .profpic {
+    width: 100%;
+    height: 45%;
+    padding: 40px;
+    border-bottom: 1px solid lightgray; 
+}
+.prof .reminders {
+    margin: 20px;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    
+}
+.prof .reminders h1{
+    width: 70%;
+}
+
+.prof .notifications{
+    display: flex;
+    width: 75%;
+    height: 10%;
+    background-color: #F7F7F7;
+    margin-left:20px ;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    padding-top: 15px;
+    
+}
+
+.profimage{
+    width: 50%;
+}
+
+.profimage:hover{
+    border: 1.5px solid white;
+}
+
+.notifications:hover{
+    border: 1px solid darkblue;
+}
+
+.notimg{
+    height: 100%;
+    width: 25%;
+
+}
+.upgrade{
+    width: 75%;
+    margin-left: 20px;
+    height: 20%;
+    background-color: #FEEEA7;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.upgrade:hover{
+    border: 2px solid rgba(64, 255, 0, 0.347);
+}
+
+.select:hover{
+    text-decoration: underline;
+    color: darkblue;
+}
+
+.reminderimg{
+    width: 50%;
+    margin-left: 15px;
+}
+
+.reminderimgbook{
+    width: 40%;
+    margin-left: 15px;
+}
+
+.courselogo{
+    width: 5%;
+    margin-right: 10px;
+}
