@@ -212,6 +212,7 @@ body section main .main .header p{
 }
 .table table td{
     font-weight: 550;
+    
 }
 .star{
     font-size: 15px;
@@ -283,11 +284,13 @@ body section main .prof{
     border-radius: 20px;
     padding: 5px;
     padding-top: 15px;
+    cursor: pointer;
     
 }
 
 .profimage{
     width: 50%;
+    cursor: pointer;
 }
 
 .profimage:hover{
@@ -315,6 +318,10 @@ body section main .prof{
     border: 2px solid rgba(64, 255, 0, 0.347);
 }
 
+.select {
+    cursor: pointer;
+}
+
 .select:hover{
     text-decoration: underline;
     color: darkblue;
@@ -328,9 +335,11 @@ body section main .prof{
 .reminderimgbook{
     width: 40%;
     margin-left: 15px;
+    
 }
 
 .courselogo{
     width: 5%;
     margin-right: 10px;
 }
+
